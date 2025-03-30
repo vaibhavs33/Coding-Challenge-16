@@ -90,3 +90,9 @@ function displayProducts(products) {
     })
     
 }
+
+//Task 5 - Reusable Error Handler
+function handleError(error) {
+    //Printing out the error message to the console
+    console.log("An error occurred: ", error);
+}
