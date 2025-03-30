@@ -80,8 +80,8 @@ function displayProducts(products) {
         divProductImage.setAttribute('class', 'product-image');
         const productImage = document.createElement('img');
         productImage.src =  product.fields.image[0].thumbnails.small.url;
-        productImage.width = 140;
-        productImage.height = 120;
+        productImage.width = 215;
+        productImage.height = 215;
         divProductImage.append(productImage);
         productCard.append(divProductImage);
         
