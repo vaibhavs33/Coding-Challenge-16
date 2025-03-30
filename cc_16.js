@@ -96,3 +96,11 @@ function handleError(error) {
     //Printing out the error message to the console
     console.log("An error occurred: ", error);
 }
+
+//Task 6 - Calling Fetch Functions
+
+//Calling fetchProductsThen() to get the product names and show them in the console
+fetchProductsThen();
+
+//Calling fetchProductsAsync() to display products on the webpage
+fetchProductsAsync();
