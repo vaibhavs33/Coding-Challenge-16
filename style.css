@@ -1,0 +1,55 @@
+/* Task 7 - Adding CSS styling for the product dashboard */
+/* Product container styling for all product cards */
+#product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+/* Page heading */
+h1 {
+    text-align: center;
+}
+
+/* Product card styling */
+.product-card {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    background-color: lightcoral;
+    box-sizing: border-box;
+}
+  
+/* Product name styling */
+.product-header {
+    color: rgba(66, 9, 200, 0.683);
+}
+
+/* Product price */
+.product-price {
+    margin-bottom: 10px;
+}
+
+/* Product image container */
+.product-image img{
+    align-content: center;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
